@@ -33,8 +33,7 @@ void	ft_putnbr(int nb)
 	ft_putchar(num % 10 + 48);
 }
 
-int	main(int argc,char **argv)
+int	main()
 {
-	(void)argv;
-	ft_putnbr(argc);
+	ft_putnbr(42);
 }

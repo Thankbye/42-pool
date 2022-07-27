@@ -30,3 +30,8 @@ void	ft_putnbr(int nb)
 		ft_putnbr(num / 10);
 	ft_putchar(num % 10 + 48);
 }
+
+int	main()
+{
+	ft_putnbr(-42);
+}
